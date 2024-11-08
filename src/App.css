@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.app{
+    background-color: bisque;
+    min-height: 100vh;
+}
+
+.login{
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 3px black;
+    gap: 10px;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.header{
+    text-align: center;
+}
+
+.addtodo{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 10px;
+}
+
+.todoF{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+     margin: 10px;
+     background-color:rgb(255, 174, 75);
+     width: 150px;
+     text-align: center;
+     height: 40px;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     border-radius: 10px;
+     color: white;
+     font-family: 'Courier New', Courier, monospace;
+     box-shadow: 0px 0px 10p 20px black;
+}
+
